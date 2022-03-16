@@ -1,0 +1,12 @@
+.video-item {
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+}
+/* using !important not advised */
+/* cursor: pointer changes cursor when hovering over clickable video */
+
+.video-item.item img {
+    max-width: 180px;
+}
+/* more specific ruling for the CSS using .item */
